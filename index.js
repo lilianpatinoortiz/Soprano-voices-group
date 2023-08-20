@@ -8,7 +8,7 @@ const userQuestions = require("./lib/userQuestions.js");
 function init() {
   inquirer.prompt(userQuestions).then((answers) => {
     const svgContent = generateSVG(answers);
-    writeToFile(answers.characters, svgContent);
+    writeToFile(svgContent);
   });
 }
 
