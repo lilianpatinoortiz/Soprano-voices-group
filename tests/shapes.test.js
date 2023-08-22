@@ -3,6 +3,7 @@ const { Circle, Triangle, Square } = require("../lib/shapeClass");
 // accurate shape tests
 
 describe("Triangle", () => {
+  // accurate tests
   describe("create triangle", () => {
     it("should create a triangle with blue background", () => {
       const shape = new Triangle();
@@ -12,7 +13,7 @@ describe("Triangle", () => {
       );
     });
   });
-
+  // negative tests
   describe("create triangle, not circle", () => {
     it("should create a triangle with blue background, and not a circle", () => {
       const shape = new Triangle();
@@ -35,6 +36,7 @@ describe("Triangle", () => {
 });
 
 describe("Circle", () => {
+  // accurate tests
   describe("create circle", () => {
     it("should create a circle with pink background", () => {
       const shape = new Circle();
@@ -44,7 +46,7 @@ describe("Circle", () => {
       );
     });
   });
-
+  // negative tests
   describe("create circle, not triangle", () => {
     it("should create a circle with pink background, not a triangle", () => {
       const shape = new Circle();
@@ -67,6 +69,7 @@ describe("Circle", () => {
 });
 
 describe("Square", () => {
+  // accurate tests
   describe("create square", () => {
     it("should create a square with black background", () => {
       const shape = new Square();
@@ -76,7 +79,7 @@ describe("Square", () => {
       );
     });
   });
-
+  // negative tests
   describe("create square, not triangle", () => {
     it("should create a square with black background, not a triangle", () => {
       const shape = new Square();
