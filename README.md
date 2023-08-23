@@ -68,6 +68,7 @@ Once all is filled your new logo will be saved in the examples folder under the 
 6. Open a new terminal and type `npm test`
 
 A visual representation of the testing video:
+
 ![test](assets/img/test.gif)
 
 ## Contributing
