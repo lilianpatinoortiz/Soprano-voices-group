@@ -65,7 +65,7 @@ Once all is filled your new logo will be saved in the examples folder under the 
 3. Pull the latest from the 'main' branch
 4. Open a new terminal and type `npm install` to install the dependencies
 5. Locate the index file and locate yourself there
-6. Open a new terminal and type `node test`
+6. Open a new terminal and type `npm test`
 
 A visual representation of the testing video:
 ![test](assets/img/test.gif)
